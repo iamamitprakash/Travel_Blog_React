@@ -2,7 +2,7 @@ import './App.css';
 import Cards from './Components/Cards';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
-import { data } from './data';
+import { data } from './data.js';
 
 function App() {
   const mappedData = data.map((item) => {
